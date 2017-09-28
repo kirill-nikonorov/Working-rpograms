@@ -1,0 +1,20 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Second Page</title>
+</head>
+<body>
+Введенное имя: ${userJSP.name};
+<br/>
+Введенный пароль: ${userJSP.password};
+<br/>
+Введенное майл: ${userJSP.email};
+<br/>
+Введенный цвет: ${userJSP.color};
+<br/>
+Введенное юрл: ${userJSP.url};
+<br/>
+Введенный еда: ${userJSP.food};
+<br/>
+</body>
+</html>
